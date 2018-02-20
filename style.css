@@ -1,0 +1,198 @@
+p {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+}
+
+.header-font {
+  font-family: "Roboto Slab", serif;
+  color: #192d53;
+}
+
+.navbar {
+  background-color: #0c57ec;
+  margin-bottom: 0 !important;
+  border-radius: 0;
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+.navbar a {
+  font-size: 20px;
+  color: #ebebeb;
+  letter-spacing: 1px;
+}
+
+.navbar .icon-bar {
+  background-color: #ebebeb;
+}
+
+.no-round-corners {
+  border-radius: 0 !important;
+}
+
+.logo-header {
+  background-color: #192d53;
+}
+
+.logo-header .au-logo {
+  width: 100%;
+  margin: 10% 0;
+}
+
+.logo-header .header-headline {
+  color: #ebebeb;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-size: 3.5vw;
+  margin: 5.5% 0 0 0;
+}
+
+@media only screen and (max-width: 768px) {
+  .display-desktop {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  .display-mobile {
+    display: none;
+  }
+}
+
+.hero-slider {
+  padding: 0 !important;
+}
+
+.headline {
+  font-family: "Roboto Slab", serif;
+  font-size: 40px;
+  line-height: 50px;
+  padding: 5% 0;
+  color: #192d53;
+}
+
+@media only screen and (max-width: 768px) {
+  .headline {
+    font-size: 30px;
+    line-height: 40px;
+  }
+}
+
+.slider-container {
+  background-color: #000000;
+}
+
+.footer {
+  background-color: #192d53;
+}
+
+.au-footer-logo {
+  width: 60%;
+  padding: 5% 0;
+}
+
+.no-padding {
+  padding: 0 !important;
+}
+
+.divider {
+  color: #192d53;
+  font-family: "Roboto Slab", serif;
+  font-weight: 300;
+}
+
+.copyright-info {
+  padding: 1% 0 0 0;
+  background-color: #0c57ec;
+  color: #ebebeb;
+  font-size: 12px;
+}
+
+.green {
+  background-color: #2ecc71;
+}
+
+.cta-text {
+  color: white;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  margin: 5% 0;
+  line-height: 55px;
+  font-size: 45px;
+}
+
+@media only screen and (max-width: 768px) {
+  .cta-text {
+    font-size: 25px;
+    line-height: 30px;
+  }
+}
+
+.background-color-change {
+  background-color: #636e72 !important;
+  background-blend-mode: multiply;
+}
+
+.jumbotron {
+  background-image: url(https://static.pexels.com/photos/48895/roof-plate-tiles-brick-black-48895.jpeg);
+  background-position: 5% 10%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 0 !important;
+}
+
+.jumbotron h2 {
+  font-family: "Roboto Slab", serif;
+  font-size: 50px;
+  color: white;
+  font-weight: 300;
+}
+
+.jumbotron .services-intro {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-size: 25px;
+  line-height: 35px;
+  letter-spacing: .2px;
+  color: white;
+}
+
+.border-radius-none {
+  border-radius: 0 !important;
+}
+
+.srv-roofing {
+  background-color: #ebebeb;
+}
+
+.services-title {
+  font-family: "Roboto Slab", serif;
+  color: #2b4b98;
+  font-size: 25px;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+.services-image {
+  border-radius: 5px;
+  border: solid white 3px;
+  -webkit-box-shadow: 2px 2px 10px #636e72;
+          box-shadow: 2px 2px 10px #636e72;
+  margin: 5% 0;
+}
+
+.services-padding {
+  padding: 3% 0;
+}
+
+.srv-painting {
+  background-color: white;
+}
