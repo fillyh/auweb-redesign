@@ -1,11 +1,21 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,700|Roboto+Slab:300,400");
+/* SCSS Mixins*/
+/* -- Base Styles  ---------- */
 p {
   font-family: "Lato", sans-serif;
-  font-size: 16px;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 300;
 }
 
-.header-font {
-  font-family: "Roboto Slab", serif;
-  color: #192d53;
+@media only screen and (max-width: 768px) {
+  p {
+    text-align: center;
+  }
+}
+
+.mobile-header {
+  color: white;
 }
 
 .navbar {
@@ -18,6 +28,12 @@ p {
   display: inline-block;
   float: none;
   vertical-align: top;
+}
+
+.navbar .navbar-brand {
+  font-size: 18px;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
 }
 
 .navbar .navbar-collapse {
@@ -67,15 +83,26 @@ p {
   }
 }
 
+.display-mobile-small {
+  margin-left: 20%;
+}
+
+@media only screen and (min-width: 767px) {
+  .display-mobile-small {
+    display: none;
+  }
+}
+
 .hero-slider {
   padding: 0 !important;
 }
 
 .headline {
   font-family: "Roboto Slab", serif;
-  font-size: 40px;
-  line-height: 50px;
+  font-size: 65px;
+  line-height: 75px;
   padding: 5% 0;
+  font-weight: 300;
   color: #192d53;
 }
 
@@ -112,8 +139,12 @@ p {
 .copyright-info {
   padding: 1% 0 0 0;
   background-color: #0c57ec;
+}
+
+.copyright-info p {
   color: #ebebeb;
-  font-size: 12px;
+  font-size: 13px;
+  line-height: 18px;
 }
 
 .green {
@@ -125,8 +156,8 @@ p {
   font-family: "Lato", sans-serif;
   font-weight: 700;
   margin: 5% 0;
-  line-height: 55px;
-  font-size: 45px;
+  line-height: 65px;
+  font-size: 55px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -154,6 +185,7 @@ p {
   font-size: 50px;
   color: white;
   font-weight: 300;
+  margin-top: 0;
 }
 
 .jumbotron .services-intro {
@@ -173,20 +205,23 @@ p {
   background-color: #ebebeb;
 }
 
-.services-title {
+.titles {
   font-family: "Roboto Slab", serif;
-  color: #2b4b98;
-  font-size: 25px;
-  font-weight: 400;
+  color: "Roboto Slab", serif;
+  margin-top: 0;
+  font-size: 35px;
+  font-weight: 300;
   text-transform: capitalize;
 }
 
+@media only screen and (max-width: 768px) {
+  .titles {
+    text-align: center;
+  }
+}
+
 .services-image {
-  border-radius: 5px;
-  border: solid white 3px;
-  -webkit-box-shadow: 2px 2px 10px #636e72;
-          box-shadow: 2px 2px 10px #636e72;
-  margin: 5% 0;
+  width: 100%;
 }
 
 .services-padding {
@@ -195,4 +230,50 @@ p {
 
 .srv-painting {
   background-color: white;
+}
+
+.title-margin {
+  margin: 5% 0 0 0;
+}
+
+.row-padding {
+  padding: 0 0 4% 0;
+}
+
+.row-padding2 {
+  padding: 2% 0;
+}
+
+.height-vh {
+  height: 50vh;
+}
+
+@media only screen and (max-width: 768px) {
+  .height-vh {
+    height: auto;
+  }
+}
+
+.contact-intro {
+  font-family: "Roboto Slab", serif;
+  font-weight: 300;
+  line-height: 35px;
+  color: #192d53;
+  margin-top: 0 !important;
+}
+
+.corporate-contact {
+  font-family: "Roboto Slab", serif;
+  font-weight: 300;
+  font-size: 24px;
+  color: #192d53;
+  margin-bottom: 1%;
+}
+
+.padding-bottom {
+  padding-bottom: 2%;
+}
+
+.height-vh2 {
+  height: 85vh;
 }
